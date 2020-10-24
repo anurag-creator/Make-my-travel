@@ -1,0 +1,442 @@
+<html>
+<head>
+<title>Make My Travel</title>
+
+<link href="css/simple.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+
+</head>
+<body>
+	
+	<div class="header">
+		<div class="container">
+			<div class="header-grids">
+				<div class="logo">
+					<h1><a  href="index.html"><span>Make My</span>Travel</a></h1>
+				</div>
+				
+				<div class="header-dropdown">
+					<div class="emergency-grid">
+					
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="nav-top">
+				<div class="top-nav">
+					<span class="menu"><img src="images/menu.png" alt="" /></span>
+					<ul class="nav1">
+						
+						<li><a href="hotels.html">Hotels</a></li>
+						<li><a href="holidays.html">Holidays</a></li>
+						<li><a href="index.html">Flights</a></li>
+						<li class="active"><a href="bus.html">Bus</a></li>
+						<li><a href="trains.html">Trains</a></li>
+						<li><a href="weekend.html">Weekend Getaways</a></li>
+						
+					</ul>
+					<div class="clearfix"> </div>
+					
+				</div>
+				<div class="dropdown-grids">
+						<div id="loginContainer"><a href="signup.html" id="loginButton"><span>Login</span></a>
+							
+						</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="banner bus-banner">
+
+		<div class="container">
+			<div class="col-md-4 banner-left">
+				<section class="slider2">
+					
+				</section>
+			
+			</div>
+			<div class="col-md-8 banner-right">
+				<div class="sap_tabs">	
+					<div class="booking-info about-booking-info">
+						<h2>Book Bus Tickets Online</h2>
+					</div>
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">	
+								  	 
+									<div class="facts about-facts">
+										<div class="booking-form">
+										<link rel="stylesheet" href="css/jquery-ui.css" />
+										
+											
+											
+											<div class="online_reservation">
+												<div class="b_room">
+															<div class="booking_room">
+																<div class="reservation">
+																	<ul>		
+																		<li class="span1_of_1 desti">
+																			 <h5>From</h5>
+																			 <div class="book_date">
+																				 <form>
+																					<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+																					<input type="text" placeholder="Type Departure City" class="typeahead1 input-md form-control tt-input" required="">
+																				 </form>
+																			 </div>					
+																		 </li>
+																		 <li class="span1_of_1 left desti">
+																			 <h5>To</h5>
+																			 <div class="book_date">
+																			 <form>
+																				<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+																				<input type="text" placeholder="Type Destination City" class="typeahead1 input-md form-control tt-input" required="">
+																			 </form>
+																			 </div>		
+																		 </li>
+																		 <div class="clearfix"></div>
+																	</ul>
+																</div>
+																<div class="reservation">
+																	<ul>	
+																		 <li  class="span1_of_1">
+																			 <h5>Departing</h5>
+																			 <div class="book_date">
+																			 <form>
+																				<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+																				<input type="date" value="Select date" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Select date';}">
+																			</form>
+																			 </div>		
+																		 </li>
+																		 <li class="span1_of_1 left">
+																			 <h5>Adults (18+)</h5>
+																			
+																			 <div class="section_room">
+																				  <select id="country" onchange="change_country(this.value)" class="frm-field required">
+																						<option value="null">1</option>
+																						<option value="null">2</option>         
+																						<option value="AX">3</option>
+																						<option value="AX">4</option>
+																						<option value="AX">5</option>
+																						<option value="AX">6</option>
+																				  </select>
+																			 </div>	
+																		</li>
+																		<li class="span1_of_1 left">
+																			 <h5>Children (0-17)</h5>
+																			
+																			 <div class="section_room">
+																				  <select id="country" onchange="change_country(this.value)" class="frm-field required">
+																						<option value="null">1</option>
+																						<option value="null">2</option>         
+																						<option value="AX">3</option>
+																						<option value="AX">4</option>
+																						<option value="AX">5</option>
+																						<option value="AX">6</option>
+																				  </select>
+																			 </div>	
+																		</li>
+																		 <div class="clearfix"></div>
+																	</ul>
+																</div>
+																<div class="reservation">
+																	<ul>	
+																		 <li class="span1_of_3">
+																				<div class="date_btn">
+																					<form>
+																						<input type="submit" value="Search">
+																					</form>
+																				</div>
+																		 </li>
+																		 <div class="clearfix"></div>
+																	</ul>
+																</div>
+															</div>
+															<div class="clearfix"></div>
+												</div>
+											</div>
+											
+										</div>	
+									</div>
+					</div>	
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	
+	</div>
+	
+	<div class="banner-bottom">
+	
+		<div class="container">
+			<div class="banner-bottom-info">
+				<h3>Today's Top Deals</h3>
+			</div>
+			<div class="banner-bottom-grids">
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="banner-bottom-middle">
+						<a href="products.html">
+							<img src="images/b3.jpg" alt="">
+							<div class="destinations-grid-info tours">
+								<h5>Book your next France holiday!</h5>
+									<p class="b-period">Book Period: Now - 30 April 2019 | Travel Period: Now - 31 June 2019 </p>
+							</div>
+						</a>
+					</div>
+					
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="banner-bottom-middle">
+						<a href="products.html">
+							<img src="images/b2.jpg" alt="">
+							<div class="destinations-grid-info tours">
+								<h5>Book your next Malaysia holiday!</h5>
+								
+								<p class="b-period">Book Period: Now - 25 April 2019 | Travel Period: Now - 31 June 2019 </p>
+							</div>
+						</a>
+					</div>
+					
+				</div>
+				<div class="col-md-4 banner-bottom-grid">
+					<div class="top-destinations-info">
+						<h4>Customer Services</h4>
+					</div>
+					<div class="customer-grid">
+						<div class="customer-left-grid">
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-print" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Print E-Ticket</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-road" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Road Status</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Manage Bookings</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Refund Status</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="customer-left-grid">
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Cancellation</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="faqs.html">FAQs</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="#">Complaints</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+							<div class="c-left-grids">
+								<div class="c-left">
+									<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+								</div>
+								<div class="c-right">
+									<a href="contact.html">Contact</a>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<div class="popular-grids">
+		
+		<div class="container">
+		
+			<div class="slider">
+				<div class="arrival-grids">			 
+					 <ul id="flexiselDemo1">
+						 <li>
+							 <a href="products.html"><img src="images/a3.jpg" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/a2.jpg" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/a4.jpg" alt=""/>
+							 </a>
+						 </li>
+						 <li>
+							 <a href="products.html"><img src="images/a1.jpg" alt=""/>
+							 </a>
+						 </li>
+						</ul>
+						<script type="text/javascript">
+						 $(window).load(function() {			
+						  $("#flexiselDemo1").flexisel({
+							visibleItems: 4,
+							animationSpeed: 1000,
+							autoPlay: true,
+							autoPlaySpeed: 3000,    		
+							pauseOnHover:true,
+							enableResponsiveBreakpoints: true,
+							responsiveBreakpoints: { 
+								portrait: { 
+									changePoint:480,
+									visibleItems: 1
+								}, 
+								landscape: { 
+									changePoint:640,
+									visibleItems: 2
+								},
+								tablet: { 
+									changePoint:768,
+									visibleItems: 3
+								}
+							}
+						});
+						});
+						</script>
+						<script type="text/javascript" src="js/jquery.flexisel.js"></script>			 
+				</div>
+			</div>
+			
+		</div>
+		</div>
+
+	<div class="footer">
+			<div class="container">
+			<div class="footer-top-grids">
+				<div class="footer-grids">
+					<div class="col-md-3 footer-grid">
+						<h4>Our Products</h4>
+						<ul>
+							<li><a href="index.html">Flight Schedule</a></li>
+							<li><a href="flights-hotels.html">City Airline Routes</a></li>
+							<li><a href="index.html">International Flights</a></li>
+							<li><a href="hotels.html">International Hotels</a></li>
+							<li><a href="bus.html">Bus Booking</a></li>
+							<li><a href="index.html">Domestic Airlines</a></li>
+							<li><a href="holidays.html">Holidays Trip</a></li>
+							<li><a href="hotels.html">Hotel Booking</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Company</h4>
+						<ul>
+							<li><a href="about.html">About Us</a></li>
+						
+							<li><a href="contact.html">Contact Us</a></li>
+							
+							<li><a href="booking.html">Feedback</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Travel Resources</h4>
+						<ul>
+							<li><a href="holidays.html">Holidays Packages</a></li>
+							<li><a href="weekend.html">Weekend Getaways</a></li>
+							<li><a href="index.html">International Airports</a></li>
+							<li><a href="index.html">Domestic Flights Booking</a></li>
+							<li><a href="booking.html">Customer Support</a></li>
+							<li><a href="booking.html">Cancel Bookings</a></li>
+							<li><a href="booking.html">Print E-tickets</a></li>
+							<li><a href="booking.html">Customer Forums</a></li>
+							<li><a href="booking.html">Make a Payment</a></li>
+							<li><a href="booking.html">Complete Booking</a></li>
+							<li><a href="booking.html">Assurance Claim</a></li>
+							<li><a href="booking.html">Retail Offices</a></li>
+						</ul>
+					</div>
+				
+					<div class="clearfix"> </div>
+				</div>
+			
+				<div class="news-letter">
+					<div class="news-letter-grids">
+					
+						<div class="col-md-4 news-letter-grid">
+							<form>
+								<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+								<input type="submit" value="Subscribe">
+							</form>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+	
+	<div class="footer-bottom-grids">
+		
+		<div class="container">
+				<div class="footer-bottom-top-grids">
+			
+					<div class="col-md-4 footer-bottom-left">
+						<h4>Follow Us</h4>
+						<div class="social">
+							<ul>
+								<li><a href="#" class="facebook"> </a></li>
+								<li><a href="#" class="facebook twitter"> </a></li>
+								<li><a href="#" class="facebook chrome"> </a></li>
+								<li><a href="#" class="facebook dribbble"> </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+					<div class="copyright">
+						<p>Copyrights © 2019 Make My Travel</p>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+</body>
+</html>
